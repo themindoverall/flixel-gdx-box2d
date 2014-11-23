@@ -47,11 +47,11 @@ public abstract class B2FlxJoint extends FlxBasic
 	/**
 	 * The anchor point of the first body.
 	 */
-	public Vector2 anchorA;	
+	public Vector2 anchorA = new Vector2();
 	/**
 	 * The anchor point of the second body.
 	 */
-	public Vector2 anchorB;	
+	public Vector2 anchorB = new Vector2();
 	/**
 	 * The anchor point of the first body in pixel world. 
 	 */
